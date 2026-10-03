@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "helpdoc"
+version = "0.1.0"
+description = "单页帮助文档发布库：条件过滤、可复用片段与锚点命名空间"
+requires-python = ">=3.10"
+
+[tool.setuptools]
+packages = ["helpdoc"]
